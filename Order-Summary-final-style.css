@@ -1,0 +1,141 @@
+body{
+  background-color: #E3E9FE;
+  text-align: center;
+}
+
+/* .card-top{
+  border-top-left-radius: 25px;
+} */
+
+.card{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  position: relative;
+  bottom:15rem;
+  left:0.1rem;
+  /* object-fit: contain; */
+}
+
+.card-bottom{
+ width:450px;
+ height:500px;
+ background-color: white;
+ position: relative;
+ bottom:15.2rem;
+ left: 33rem;
+ right: 15rem;
+ border-bottom-left-radius: 25px;
+ border-bottom-right-radius: 25px;
+}
+
+
+.heading{
+  margin:0;
+  padding-top: 1em;
+  font-family: 'Red Hat Display' , sans-serif;
+}
+
+p{
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding: 50px;
+  padding-top: 25px;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan{
+  height: 5rem;
+  width:22rem;
+  border-radius: 10px;
+  margin-left: 3rem;
+  background-color: #F7F9FF;
+}
+
+.ann-plan{
+  font-family: 'Red Hat Display' , sans-serif;
+  color: #222222;
+  position: relative;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  right:3rem;
+}
+
+.music{
+  position:relative;
+  margin-right: 18rem;
+  bottom: 2.7rem;
+  left: 0.5rem;
+}
+
+.charge{
+  position:relative;
+  bottom:7rem;
+  right:3.4rem;
+}
+
+.change{
+  color: #382ae1;
+  font-family: 'Red Hat Display' , sans-serif;
+  position: relative;
+  bottom:13.5rem;
+  left:8rem;
+}
+
+.change:hover {
+  color: #7C72F4;
+  text-decoration: none;
+}
+
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 12px 9px #dad7fa;
+  -moz-box-shadow: 0px 12px 9px #dad7fa;
+  box-shadow: 0px 12px 9px #dad7fa;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background: #1e1fcd;
+  padding: 1em 8em 1em 8em;
+  text-decoration: none;
+  position: relative;
+  bottom:22rem;
+  left:0.1rem;
+}
+
+.btn:hover {
+  background: #7369e0;
+  text-decoration: none;
+}
+
+.cancel{
+  font-family: 'Red Hat Display' , sans-serif;
+  font-size: 15px;
+  color: hsl(224, 23%, 55%);
+  position: relative;
+   padding-top: 0.5rem;
+  /* padding-left: 0.5rem;  */
+  left:0.1rem;
+  bottom:19.5rem;
+  text-decoration: none;
+}
+
+.cancel:hover{
+  color: #222222;
+  text-decoration: none;
+}
+
+/* .top-container{
+  position: relative;
+}
+.bgi{
+  position: relative;
+}
+.card{
+  position: relative;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  bottom:15rem;
+} */
