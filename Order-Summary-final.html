@@ -2,36 +2,40 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Order Summary Card</title>
-  <link rel="stylesheet" href="Order-Summary-final-style.css">
-  <link rel="icon" href="favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Summary Card</title>
+<link rel="stylesheet" href="Order-Summary-final-style.css">
+<link rel="icon" href="favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- <div class="top-container">
-    <img class="bgi" src="D:\kuldeep singh\Downloads\order-summary-component-main\order-summary-component-main\images\pattern-background-desktop.svg" alt="Pattern Background" style="width:100%">
-    <img class="card" src="D:\kuldeep singh\Downloads\order-summary-component-main\order-summary-component-main\images\illustration-hero.svg" alt="Illustration Hero Img">
-  </div> -->
+  <picture>
+    <source media="(max-width:792px)" srcset="pattern-background-mobile.svg" width="100">
+    <source media="(min-width:793px)" srcset="pattern-background-desktop.svg" width="100">
+    <img src="pattern-background-desktop.svg" alt="background" style="width: 100%;">
+  </picture>
 
-  <img class="bgi" src="pattern-background-desktop.svg" alt="Pattern Background" style="width:100%">
-  <div class="card-top">
+<main>
+
+  <div class="picture">
     <img class="card" src="illustration-hero.svg" alt="Illustration Hero Img">
   </div>
-  <div class="card-bottom">
-    <h1 class="heading">Order Summary</h1>
-    <p> You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like! </p>
-    <div class="plan">
-      <h3 class="ann-plan">Annual Plan</h3>
-      <img class="music" src="icon-music.svg" alt="music icon">
-      <p class="charge">$59.99/year</p>
-      <a class="change" href="#"><strong>Change</strong></a>
+    <h1>Order Summary</h1>
+    <p class="subtitle">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+
+    <div class="bottom">
+      <img class="icon" src="icon-music.svg" alt="music icon" width="40">
+      <div class="plan">
+        <p class="ann-plan">Annual Plan</p>
+        <p class="price">$59.99/year</p>
+      </div>
+        <a href="#">Change</a>
     </div>
-  </div>
-  <div class="button">
-    <a class="btn" href="#"><strong>Proceed to Payment</strong></a>
-  </div>
-  <a class="cancel" href="#">Cancel Order</a>
+    <button class="payment" type="button">Proceed to Payment</button>
+    <button class="cancel" type="button">Cancel Order</button>
+</main>
+
 </body>
 </html>
